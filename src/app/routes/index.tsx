@@ -9,13 +9,11 @@ import { Dashboard, Login } from "../pages";
 export const Routes = () => {
   return (
     <BrowserRouter>
-      <Switch>
-        <Route path="/dashboard" element={<Dashboard/>}/>
+      <Switch>    
         <Route path="/login" element={<Login/>}/>
+        <Route path="/dashboard" element={<Dashboard/>}/>
 
-
-
-        <Route path="*" element={<Navigate to ="/dashboard"/>} />
+        <Route path="*" element={<Navigate to ="/login"/>} />
       </Switch>
     </BrowserRouter>
   );
