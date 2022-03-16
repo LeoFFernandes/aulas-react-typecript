@@ -1,0 +1,29 @@
+{
+    "users":[
+        {
+            "id":"",
+            "name":""
+        }
+    ],
+    "profiles":[
+        {
+            "id": "",
+            "name": "",
+            "acumulatedhours": "",
+            "month": [
+            {
+                "day":[
+                    {
+                    "id": "",
+                    "totalhour":"",
+                    "intervalhour": "",
+                    "finalhour": "" 
+                    }
+                ],
+                "totalmonthhour":"",
+                "finalmonthour":""
+             }
+            ]
+        }
+    ]
+}

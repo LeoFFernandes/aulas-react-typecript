@@ -1,20 +1,27 @@
-import { useRef } from 'react';
-import { Link } from 'react-router-dom';
-import { useUserLogged } from '../../shared/hooks';
+import { NavbarComponent } from "../../shared/components";
 
+import "./styles/dashboard.css";
 
 export const Dashboard = () => {
-  const counterRef = useRef({ counter : 0 });
-  
-  const { UserName, logout } = useUserLogged();
   return (
-    <div>
-      <p>{UserName}</p>
-        <p>Dashboard</p>
-        <p>{counterRef.current.counter}</p>
-        <button onClick={()=> counterRef.current.counter++}>Somar</button>
-        <button onClick={logout}>Log Out</button>
-        <Link to="/login">Login</Link>
-    </div>
-  )
+    <>
+      <NavbarComponent />
+      <div className="div-dashboard">
+        <div className="div-dashboard-container">
+          <form className="form-horizontal">
+            <ul className="list-vertical">
+              <li>Funcionario 1</li>
+              <li>Funcionario 2</li>
+              <li>Funcionario 3</li>
+              <li>Funcionario 4</li>
+              <li>Funcionario 5</li>
+            </ul>
+          </form>
+        </div>
+        <div>
+          Teste
+        </div>
+      </div>
+    </>
+  );
 };

@@ -1,0 +1,23 @@
+.div-dashboard {
+    background-color: #f5f3;
+    height: 92vh;
+    display:flex;
+    justify-content:center;
+}
+.div-dashboard-container {
+    width: 900px;
+    background-color: #000;
+}
+.form-horizontal{ 
+    background-color: white;
+    height: 92vh;
+    min-width: 30px;
+    max-width: 100px;
+}
+.list-vertical{
+    display:block;
+    padding: 0px 5px;
+}
+ li{
+    padding: 30px 0px 0px 0px;
+}

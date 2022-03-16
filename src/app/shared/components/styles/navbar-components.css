@@ -1,0 +1,39 @@
+.div-navbar{
+    background: #23232e;
+    height: 8vh;
+    display:flex;
+    justify-content:center;
+}
+.div-navbar-container {
+    width: 900px;
+}
+
+.navbar{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    background-color: #3333;
+}
+ul{
+    list-style: none;
+    display: flex; 
+   
+}
+.Link {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    color: #fff;
+    text-decoration: none;
+    cursor:pointer;
+}
+.Link:hover{
+    letter-spacing: 6px;
+    color: chartreuse;
+    text-decoration: none;
+}
+img{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}

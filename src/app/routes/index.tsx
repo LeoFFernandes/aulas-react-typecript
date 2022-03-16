@@ -4,16 +4,18 @@ import {
   Routes as Switch,
   Navigate,
 } from "react-router-dom";
-import { Dashboard, Login } from "../pages";
+import { Dashboard, Home, Login } from "../pages";
+
+import './index.css';
 
 export const Routes = () => {
   return (
     <BrowserRouter>
-      <Switch>    
+      <Switch>  
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login/>}/>
-        <Route path="/dashboard" element={<Dashboard/>}/>
-
-        <Route path="*" element={<Navigate to ="/login"/>} />
+        <Route path="/Dashboard" element={<Dashboard />}/>
+        <Route path="*" element={<Navigate to ="/"/>} />
       </Switch>
     </BrowserRouter>
   );

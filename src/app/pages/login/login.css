@@ -1,0 +1,18 @@
+.div-login{
+    background-color: #333;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+}
+.form-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button-login-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
